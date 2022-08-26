@@ -21,7 +21,7 @@ For this project, I was tasked with creating an active interactive HTML webpage,
 
 The link above, [UFO Finder Webpage](https://lucky777b.github.io/UFOs/), will direct the user to the 'UFO Sightings' HTML page. This link is also an active webpage, in which, the user can open the link, and start filtering in any one of the 5 'Filter Search' boxes, located in the bottom left-hand side. The image below is an example of what should be seen upon accessing the link above.
 
-[startupPage](UFO_startup_page.png)
+[startupPage](https://github.com/Lucky777b/UFOs/blob/main/static/images/UFO_startup_page.png)
 
 The beauty of this webpage is that the user does not have to fill out all of the filter boxes in order to create their search. The image below exemplify how the user can input text into just 1 filter search box, and still get results after they press enter. 
 
