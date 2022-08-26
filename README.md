@@ -2,7 +2,7 @@
 
 ## Overview 
 
-For this project, I was tasked with creating an active interactive HTML webpage, in which any user could click onto the website and be able to filter through the search criteria in one or all of the search fields, as desired. I was given a dataset in a JavaScript file, that contained information on various UFO sightings recorded from various countries, and I used that dataset to determine what type of search fields to create, for the user to filter, while using the webpage. In my index.html file, I used CSS and Bootstrap to create how my webpage would look, for example, where to put the paragraph text vs. the data table, the image displayed in the header of the page, and the color or text styles used throughout the webpage. I used the D3 library to be able to select the data from the 'data.js' file, and create an event listener, which will call upon my filter functions in my 'app.js' file whenever the user changes their filter criteria.
+For this project, I was tasked with creating an active interactive HTML webpage, in which any user could click onto the website and be able to filter through the search criteria in one or all of the search fields, as desired. I was given a dataset in a JavaScript file, that contained information on various UFO sightings recorded from various locations in the US, and I used that dataset to determine what type of search fields to create, for the user to filter, while using the webpage. In my index.html file, I used CSS and Bootstrap to create how my webpage would look, for example, where to put the paragraph text vs. the data table, the image displayed in the header of the page, and the color or text styles used throughout the webpage. I used the D3 library to be able to select the data from the 'data.js' file, and create an event listener, which will call upon my filter functions in my 'app.js' file whenever the user changes their filter criteria.
 
 ## Resources 
 
@@ -37,10 +37,18 @@ This last image shows how the user can apply 4 filter searches and still retriev
 
 All of these examples were used to show how a user can filter through the UFO sightings data using one or all of the search fields, and this is useful for a user who maybe wanted to see all sightings in one state, one country, and then incorporate more filters to be more and more specific, like on certain dates or certain shapes. 
 
-Now, to return back to the main page, for example, where none of the filter search fields were applied, the user can click 'UFO Sightings' in the upper-left-hand corner of the webpage: 
+Now, to return back to the main page, for example, where none of the filter search fields were applied, the user can click 'UFO Sightings' (as shown below, where the mouse cursor is pointed/hovering over 'UFO Sightings') in the upper-left-hand corner of the webpage: 
 
 ![mouse](https://github.com/Lucky777b/UFOs/blob/main/static/images/mouse_pointer.png)
 
 Or, the user can just clear all of the search fields and then hit 'Enter' on their keyboard, and the webpage will refresh to its original state, which shows the entire dataset, once again. 
 
 ## Summary
+
+One drawback of this webpage is that the data is stagnant, meaning that it only contains what it contains, if someone wanted to see recent citings in the past couple days of their search, they wouldn't be able to because the webpage isn't pulling the data from an external website. Instead, it is just retrieving the results from an already compiled dataset, which in this dataset is only from sightings during the year 2010. 
+
+It should also be noted that the dataset only contains data from the US, and not other parts of the world, which makes the 'Country' filter obsolete for this webpage. One way to fix this is to pull more datasets that incorporate UFO sightings from other countries.
+
+This drawback could be mitigated by setting up an API with an external website that incorporates data that is dynamic and is consistently being recorded as each day progresses. This could allow for more relavent data results, and being able to retrieve current data could be more valuable to a user that wants to see UFO sightings that may have occurred recently in their area, or if they thought they saw something, then they could see if someone else saw something around the same date that they did. 
+
+Even though I was proud of what I was able to create, I did notice a couple of things that I would like to learn how to do for this webpage or any future webpages that I create. One thing I would want to incorporate is the ability for the page to just refresh on its own, for example, the dataset would change as I am typing in my filter searches. I think this would be helpful for the user because they might not know what cities, states, or dates are in the dataset to filter, or if they were incorrectly spelling something within a search field, the result would just return nothing. If the ability for the page to 'change' as they are typing was applied, then they could see what is or isn't in the dataset as they go, as well as, allow the user to catch any spelling errors before typing it all out and retrieving no information in their results. 
